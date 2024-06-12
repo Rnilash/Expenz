@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/utils/colors.dart';
 
 class first_page extends StatelessWidget {
   const first_page({super.key});
@@ -6,7 +7,7 @@ class first_page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kMainColor,
+      backgroundColor: kLightGrey,
       body: Column(
         children: [
           Center(
@@ -18,7 +19,7 @@ class first_page extends StatelessWidget {
           ),
           Text(
             "Expenz",
-            style: TextStyle(color:),
+            style: TextStyle(color: kMainColor),
           )
         ],
       ),
