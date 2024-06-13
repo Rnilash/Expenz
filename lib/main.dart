@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/Pages/Onboard_page.dart';
 import 'package:flutter_application_1/Pages/first_page.dart';
 
 void main() {
@@ -10,8 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: first_page(),
+    return MaterialApp(
+      theme: ThemeData(fontFamily: "Inter"),
+      debugShowCheckedModeBanner: false,
+      home: const onboard_page(),
     );
   }
 }
