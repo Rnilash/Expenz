@@ -1,4 +1,4 @@
-# flutter_application_1
+# Expenz App
 
 A new Flutter project.
 
